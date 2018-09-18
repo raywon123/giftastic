@@ -99,7 +99,7 @@ function searchGIPHY(gif) {
 let gifs = ["apple pie", "key lime pie", "cheesecake", "fudge",
 "funnel cake", "banana pudding", "lemon meringue pie", "frozen yogurt",
 "cheery pie", "swiss roll", "sponge cake", "cupcake", "coffee cake",
-"gugelhupf"];
+"gugelhupf", "ice cream"];
 
 let limit = 15;
 let gifObject = {};
