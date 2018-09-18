@@ -8,98 +8,21 @@ body {
   line-height: 20px;
   color: rgb(156, 21, 127);
   background-color: #ccc;
-  background-image: url("../images/concrete_seamless.png");
+  background-image: url("../images/dessert.jpg");
   background-repeat: repeat;
   size: 960px;
 }
 
 h1, h2, h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
-  color: #ccc;
+  font-weight: 500;
+  color: darkblue;
 }
 
-/*
-  The width of the wrapper will be 1024px
-  at browser widths above 768px
-*/
-
-/* .wrapper {
-  width: 1024px;
-  margin: 40px auto;
-}
-
-.main-content, .sidebar {
-  width: 500px;
-  padding: 30px;
-}
-
-.main-content {
-  float: left;
-  background: #fff;
-}
-
-.sidebar {
-  float: right;
-  background: #eee;
-} */
 
 .container {
   width: 90%;
   margin-right: 10px;
-}
-
-/* .logobox {
-  width: auto;
-  height: 200px;
-  padding-left: 30px;
-  padding-right: 30px;
-} */
-
-.auth-image {
-  float: right;
-  width: 20%;
-  height: 20%;
-  margin-top: 10px;
-  opacity: 0.8;
-}
-
-/* #display {
-  margin-top: 78px;
-  height: 500px;
-  width: 220px;
-  margin-left: 60px;
-}
-
-#buttons {
-  padding-top: 60px;
-}
-
-#clear {
-  margin-left: 20px;
-  font-size: 25px;
-  color: black;
-  border-style: solid;
-  width: 100px;
-} 
-*/
-
-.img-player {
-  float: none;
-  width: 80px;
-  height: auto;
-  margin: 5px;
-}
-
-.caption {
-  display: block;
-}
-
-.display {
-  margin-top: 10px;
-  height: 40px;
-  width: 200px;
-  /* margin-left: 10px; */
 }
 
 #buttons {
@@ -110,13 +33,12 @@ h1, h2, h3 {
   margin: 2px;
 }
 
-.instruction, .instruction2, .instruction3 {
-  color: red;
-  font-weight: 700;
-  font-size: 15px;
-  text-align: center;
+.gif {
+  margin: 5px;
+  padding: 2px;
 }
 
-.attack {
-  margin-bottom: 20px;
+.gifButton {
+  margin: 5px;
+  padding: 2px;
 }

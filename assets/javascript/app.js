@@ -12,7 +12,7 @@ function createButtons() {
         // This code $("<button>") is all jQuery needs to create the start and end tag. (<button></button>)
         let a = $("<button>");
         // Adding a class
-        a.addClass("gifButton");
+        a.addClass("gifButton btn-info");
         // Adding a data-attribute with a value of index i
         a.attr("data-name", gifs[i]);
         // Providing the button's text with a value of index i
@@ -74,7 +74,7 @@ function searchGIPHY(gif) {
     url += '?' + $.param({
         'api_key': "L3lB7fj2BcQYRf6bEl7cRXH8ZjVs2Ywr",
         'q': gif,
-        'limit': "10",
+        'limit': "15",
         'offset': "0",
         'rating': "pg-13",
         'lang': "en",
@@ -96,8 +96,12 @@ function searchGIPHY(gif) {
 
 
 // Initial array of gifs
-let gifs = ["The Matrix", "The Notebook", "Mr. Nobody", "The Lion King"];
-let limit = 10;
+let gifs = ["apple pie", "key lime pie", "cheesecake", "fudge",
+"funnel cake", "banana pudding", "lemon meringue pie", "frozen yogurt",
+"cheery pie", "swiss roll", "sponge cake", "cupcake", "coffee cake",
+"gugelhupf"];
+
+let limit = 15;
 let gifObject = {};
 let isPlayed = true;
 

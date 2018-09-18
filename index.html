@@ -11,28 +11,29 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
   <!-- Your CSS -->
-  <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-  <title>GIFs Search</title>
+  <title>Dessert GIFs Search</title>
 </head>
 
 <body>
 
   <div class="container">
-    <h1>GIFs Search</h1>
+    <h1>Dessert GIFs Search</h1>
 
     <!-- GIFs buttons will get dumped here -->
     <div class="gifbuttons-view"></div>
-
+    <br>
     <form class="gif-form">
-      <label for="gif-input">Add A New Search</label>
-      <input type="text" class="gif-input"><br>
+      <label for="gif-input">Add A New Dessert</label>
+      <input type="text" class="gif-input">
 
       <!-- Button triggers new gif search to be added -->
-      <input class="add-gif" type="submit" value="Add A New Search">
-    </form>
+      <!-- <input class="add-gif" type="submit" value="Add A New Search"> -->
+      <button type="button" class="btn btn-info add-gif" value="Add A New Search">Add A New Search</button>
+    <br><br>
 
+    </form>
     <!-- GIFs API calls will get dumped here -->
     <div class="display-poster"></div>
     <div class="display"></div>
